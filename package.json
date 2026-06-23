@@ -1,0 +1,28 @@
+{
+  "name": "animal-island-new-tab-page",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt --host 0.0.0.0",
+    "build": "tsc --noEmit && wxt build",
+    "zip": "wxt zip",
+    "prepare": "wxt prepare"
+  },
+  "dependencies": {
+    "animal-island-ui": "^1.0.16",
+    "classnames": "^2.5.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.6.0",
+    "@wxt-dev/module-react": "^1.2.2",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "wxt": "^0.20.26"
+  }
+}
